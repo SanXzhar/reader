@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.navbar{
+    margin-top: 1.5vw;
+    background-color: #FDFDFD;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.line{
+    margin-top: 1.2vw;
+    width: 82vw;
+    border: 1px solid #0E263E;
+    height: 0px;
+}
+
+.center{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3vw;
+    color: #0E263E;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.colored{
+    margin-right: 10px;
+    background-clip: text;
+    color: #FF781D;
+}
+
+.but{
+    margin-left: 4.5vw;
+}

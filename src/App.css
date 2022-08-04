@@ -1,0 +1,310 @@
+*{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.main{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FDFDFD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-image: url("./Frame\ 13.png");
+}
+
+.text{
+  margin-top: 4.5vh;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  color: #0E263E;
+}
+
+textarea{
+  background: #FDFDFD;
+  box-shadow: 0px 4px 24px 1px rgba(172, 103, 0, 0.25);
+  backdrop-filter: blur(45px);
+
+  border-width: 0;
+  border-radius: 16px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4vw;
+  line-height: 30px;
+
+  padding-right: 4vw;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  padding-left: 4vw;
+  margin-top: 1vw;
+  width: 48vw;
+  height: 38vh;
+
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+.readButton{
+  width: 8vw;
+  height: 8vh;
+  background: #FF781D;
+  box-shadow: 0px 4px 24px 1px rgba(172, 103, 0, 0.25);
+  backdrop-filter: blur(45px);
+
+  border: none;
+  border-radius: 98.5px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  line-height: 32px;
+
+  color: #FDFDFD;
+}
+
+.buttons-up{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.progress{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 34vw;
+  height: 8vh;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px 1px rgba(172, 103, 0, 0.25);
+  backdrop-filter: blur(45px);
+
+  border-radius: 98.5px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  line-height: 32px;
+}
+
+.progress_bar{
+  margin-left: 20px;
+  height: 8px;
+  border-radius: 5px;
+  width: 20vw;
+  background-color: gray;
+}
+
+.my_progress{
+  height: 100%;
+  background: #FF781D;
+  border-radius: 7.5px;
+  position: relative;
+}
+
+.my_progress::after{
+  padding-top: -10px;
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-radius: 25px;
+  background: #E00100;
+  display: block;
+  position: absolute;
+  right: -6px;
+  margin-top: -2px;
+}
+
+.dark{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grand{
+  width: 100vw;
+  height: 100vh;
+}
+
+.current{
+  border: none;
+  width: 861px;
+  height: 327px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+  background: #FDFDFD;
+  box-shadow: 0px 4px 24px 1px rgba(172, 103, 0, 0.25);
+  backdrop-filter: blur(45px);
+
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 16px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  /* font-size: 96px; */
+  /* line-height: 120px; */
+}
+
+.pauseButton{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 7vw;
+  height: 8vh;
+
+  background: #FDFDFD;
+  border: 1px solid #0E263E;
+  box-shadow: -6px 6px 20px rgba(255, 128, 0, 0.25);
+  border-radius: 39.5px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  line-height: 32px;
+}
+
+.backButton{
+  margin-top: 3vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  line-height: 32px;
+
+  width: 366px;
+  height: 8vh;
+  color: white;
+  background: #FF781D;
+  border: 1px solid #0E263E;
+  box-shadow: -6px 6px 20px rgba(255, 128, 0, 0.25);
+  border-radius: 39.5px;
+}
+
+.end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.refresh{
+  margin-left: 20px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  line-height: 32px;
+
+  width: 12vw;
+  height: 8vh;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px 1px rgba(172, 103, 0, 0.25);
+  backdrop-filter: blur(45px);
+
+/* Note: backdrop-filter has minimal browser support */
+  border-radius: 98.5px;
+  border: none;
+}
+
+.speed{
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  line-height: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 30px;
+
+  width: 20vw;
+  height: 8vh;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px 1px rgba(172, 103, 0, 0.25);
+  backdrop-filter: blur(45px);
+
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 98.5px;
+}
+
+.font{
+  margin-left: 20px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  line-height: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 30px;
+
+  width: 20vw;
+  height: 8vh;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px 1px rgba(172, 103, 0, 0.25);
+  backdrop-filter: blur(45px);
+
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 98.5px;
+}
+
+select{
+  margin-left: 30px;
+  border: none;
+  background-color: white;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 32px;
+}
+
+.buttons-down{
+  padding: 20px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  
+}
