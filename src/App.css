@@ -298,7 +298,9 @@ select{
 }
 
 .buttons-down{
+  padding-top: 10px;
   padding: 20px;
+  margin-top: 0;
   padding-top: 0px;
   display: flex;
   justify-content: center;
@@ -307,16 +309,22 @@ select{
 
 @media screen and (max-width: 800px) {
   textarea{
-    width: 80vw;
+    width: 60vw;
     height: 50vh;
+    margin-top: 35px;
+    font-size: 20px;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
   .readButton{
-    width: 12vw;
-    height: 4vh;
+    width: 30vw;
+    height: 13vw;
+    font-size: 5vw;
   }
   .progress{
-    width: 40vw;
-    height: 4vh;
+    display: none;
   }
   .progress_bar{
     height: 4px;
@@ -326,15 +334,33 @@ select{
     height: 4vh;
   }
   .refresh{
-    width: 16vw;
-    height: 4vh;
+    font-size: 5vw;
+    width: 45vw;
+    height: 13vw;
   }
   .speed{
-    width: 36vw;
-    height: 4vh;
+    margin-top: 10px;
+    width: 80vw;
+    height: 13vw;
+    margin-left: 0;
+    font-size: 5vw;
   }
+
+  select{
+    font-size: 5vw;
+  }
+
   .font{
-    width: 36vw;
-    height: 4vh;
+    margin-top: 20px;
+    width: 80vw;
+    height: 13vw;
+    margin-left: 0;
+    font-size: 5vw;
+  }
+  .text{
+    display: none;
+  }
+  .buttons-down{
+    flex-direction: column;
   }
 }
