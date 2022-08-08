@@ -363,4 +363,22 @@ select{
   .buttons-down{
     flex-direction: column;
   }
+  .current{
+    width: 80vw;
+    height: 30vh;
+  }
+  .pauseButton{
+    width: 30vw;
+    height: 13vw;
+    font-size: 5vw;
+  }
+  .backButton{
+    width: 80vw;
+    height: 13vw;
+    font-size: 5vw;
+  }
+  .end{
+    font-size: 1vw;
+  }
+
 }

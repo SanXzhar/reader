@@ -96,7 +96,7 @@ function App() {
       : finish ? 
       <div className = "dark">
         <Confetti width={2000} height={2000}/>        
-        <div className="current end" style={{ fontSize: `42px` }}>
+        <div className="current end" style={{ fontSize: `5vw` }}>
           <div>Congratulations, you have</div>
           <div>completed reading this text!</div>
         </div>
