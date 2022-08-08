@@ -310,7 +310,7 @@ select{
 @media screen and (max-width: 800px) {
   textarea{
     width: 60vw;
-    height: 50vh;
+    height: 45vh;
     margin-top: 25px;
     font-size: 20px;
     padding-top: 8vw;
