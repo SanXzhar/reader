@@ -305,6 +305,36 @@ select{
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-  
+@media screen and (max-width: 800px) {
+  textarea{
+    width: 80vw;
+    height: 50vh;
+  }
+  .readButton{
+    width: 12vw;
+    height: 4vh;
+  }
+  .progress{
+    width: 40vw;
+    height: 4vh;
+  }
+  .progress_bar{
+    height: 4px;
+  }
+  .pauseButton{
+    width: 12vw;
+    height: 4vh;
+  }
+  .refresh{
+    width: 16vw;
+    height: 4vh;
+  }
+  .speed{
+    width: 36vw;
+    height: 4vh;
+  }
+  .font{
+    width: 36vw;
+    height: 4vh;
+  }
 }
