@@ -109,7 +109,7 @@ function App() {
         </div>
       <textarea type = 'text' value={initText} onChange = { handleText }></textarea>
       <div className='buttons-up'>
-        { isPlaying? null: finish ? null : <button onClick={ handlePlay } className="readButton">Read</button>}
+        { isPlaying? null: finish ? null : <button onClick={ handlePlay } className="readButton">look</button>}
         <div className='progress'>
           <div>Progress</div>
           <div className='progress_bar'>
